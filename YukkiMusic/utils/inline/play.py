@@ -250,7 +250,7 @@ def panel_markup_1(_, videoid, chat_id):
                 callback_data=f"Pages Back|0|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Bᴀᴄᴋ",
+                text="↫ Bᴀᴄᴋ",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
@@ -266,10 +266,10 @@ def panel_markup_2(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔇 Mᴜᴛᴇ", callback_data=f"ADMIN Mute|{chat_id}"
+                text="ø Mᴜᴛᴇ", callback_data=f"ADMIN Mute|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="🔊 Uɴᴍᴜᴛᴇ",
+                text="♬ Uɴᴍᴜᴛᴇ",
                 callback_data=f"ADMIN Unmute|{chat_id}",
             ),
         ],
@@ -288,7 +288,7 @@ def panel_markup_2(_, videoid, chat_id):
                 callback_data=f"Pages Back|1|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Bᴀᴄᴋ",
+                text="↫ Bᴀᴄᴋ",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
@@ -328,7 +328,7 @@ def panel_markup_3(_, videoid, chat_id):
                 callback_data=f"Pages Back|2|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Bᴀᴄᴋ",
+                text="↫ Bᴀᴄᴋ",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
